@@ -1,0 +1,10 @@
+version: "3"
+services:
+  semantic-search:
+    build: .
+    container_name: semantic_search_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
