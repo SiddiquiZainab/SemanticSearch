@@ -2,10 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import torch, faiss, numpy as np
 from transformers import CLIPProcessor, CLIPModel
-from src.utils import load_meta, build_explanation
+from src.utils import load_meta, generate_explanation_with_gemini
 import os
 
 app = FastAPI(title="Semantic Image Search")
+THRESHOLD = 0.25
 
 app.add_middleware(
     CORSMiddleware,
@@ -35,8 +36,10 @@ async def search(payload: dict):
     D, I = index.search(txt_emb.astype("float32"), 5)
     results = []
     for score, idx in zip(D[0], I[0]):
+        if score < THRESHOLD:
+            continue
         m = meta[idx]
-        explanation = build_explanation(query, m, score)
+        explanation = generate_explanation_with_gemini(query, m["caption"], m["objects"], score)
         img_path = m["path"]
         results.append({
             "filename": os.path.basename(img_path),
@@ -45,4 +48,9 @@ async def search(payload: dict):
             "score": float(score),
             "explanation": explanation
         })
+
+        # ✅ Handle no good matches
+        if not results:
+            return {"query": query, "results": [], "message": "No images match your query with enough confidence."}
+
     return {"query": query, "results": results}

@@ -1,10 +1,31 @@
-version: "3"
+version: '3.8'
+
 services:
-  semantic-search:
-    build: .
-    container_name: semantic_search_app
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    container_name: semantic_search_fastapi
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
     ports:
       - "8000:8000"
-    volumes:
-      - ./data:/app/data
-    restart: unless-stopped
+    networks:
+      - semantic_net
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: semantic_search_streamlit
+    command: ["./wait-for-it.sh", "fastapi:8000", "--", "streamlit", "run", "src/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    ports:
+      - "8501:8501"
+    depends_on:
+      - fastapi
+    networks:
+      - semantic_net
+
+networks:
+  semantic_net:
+    driver: bridge

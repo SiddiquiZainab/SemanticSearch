@@ -1,6 +1,12 @@
 import os
 import json
 from PIL import Image
+from dotenv import load_dotenv
+import google.generativeai as genai
+
+# Configure Gemini
+load_dotenv()
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 def load_meta(path="data/meta.json"):
     if os.path.exists(path):
@@ -24,15 +30,18 @@ def list_images(folder="data/images", exts=(".jpg", ".png", ".jpeg")):
 def open_image(path):
     return Image.open(path).convert("RGB")
 
-def build_explanation(query, meta_entry, score):
-    query_tokens = set(query.lower().split())
-    objects = meta_entry.get("objects", [])
-    matched = [o for o in objects if o.lower() in query_tokens]
-    explanation = ""
-    if matched:
-        explanation += f"The image includes {', '.join(matched)} which match your query. "
-    caption = meta_entry.get("caption", "")
-    if caption:
-        explanation += f"Caption: \"{caption}\". "
-    explanation += f"(Similarity score: {score:.2f})"
-    return explanation.strip()
+def generate_explanation_with_gemini(query, caption, objects, score):
+    prompt = f"""
+    The user searched for: "{query}".
+    The image contains the following objects: {objects}.
+    The image caption is: "{caption}".
+    The similarity score between the image and the query is {score:.2f}.
+
+    Write one short natural explanation (2 sentences max) about why this image is a relevant match for the query.
+    Avoid repeating the score and do not mention confidence values.
+    """
+    try:
+        response = genai.GenerativeModel("gemini-2.0-flash").generate_content(prompt)
+        return response.text.strip()
+    except Exception:
+        return "Automatically matched based on visual and semantic relevance."
