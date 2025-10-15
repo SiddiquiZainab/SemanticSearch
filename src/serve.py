@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import torch, faiss, numpy as np
 from transformers import CLIPProcessor, CLIPModel
-from utils import load_meta, build_explanation
+from src.utils import load_meta, build_explanation
 import os
 
 app = FastAPI(title="Semantic Image Search")

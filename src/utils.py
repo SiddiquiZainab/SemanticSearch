@@ -12,8 +12,13 @@ def save_meta(meta, path="data/meta.json"):
     with open(path, "w") as f:
         json.dump(meta, f, indent=2)
 
-def list_images(folder="data/images"):
-    exts = (".jpg", ".jpeg", ".png", ".webp")
+def list_images(folder="data/images", exts=(".jpg", ".png", ".jpeg")):
+    # Convert to absolute path based on project root
+    folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), folder)
+
+    if not os.path.exists(folder):
+        raise FileNotFoundError(f"Folder not found: {folder}")
+
     return [os.path.join(folder, f) for f in os.listdir(folder) if f.lower().endswith(exts)]
 
 def open_image(path):
