@@ -44,8 +44,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0703.jpg",
     "caption": "a turtle swimming in the ocean",
     "objects": [
-      "person",
-      "kite"
+      "kite",
+      "person"
     ]
   },
   {
@@ -54,9 +54,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2114.jpg",
     "caption": "a dog is shown on a pink background with cons and cons",
     "objects": [
-      "apple",
+      "dog",
       "orange",
-      "dog"
+      "apple"
     ]
   },
   {
@@ -129,8 +129,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0059.jpg",
     "caption": "flamingos, flamingos, flamingos, flamingos, flamingos, flamingos, flamingos",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -654,8 +654,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1227.jpg",
     "caption": "the walt building in walt world",
     "objects": [
-      "umbrella",
-      "kite"
+      "kite",
+      "umbrella"
     ]
   },
   {
@@ -898,9 +898,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1540.jpg",
     "caption": "three potted plants sit on a window sie",
     "objects": [
-      "vase",
+      "cup",
       "potted plant",
-      "cup"
+      "vase"
     ]
   },
   {
@@ -937,11 +937,11 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0110.jpg",
     "caption": "a bunch of flowers and scissors on a table",
     "objects": [
+      "scissors",
       "knife",
       "dining table",
       "book",
-      "cell phone",
-      "scissors"
+      "cell phone"
     ]
   },
   {
@@ -1030,8 +1030,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1965.jpg",
     "caption": "a woman sitting on top of a mountain",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -1040,9 +1040,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1030.jpg",
     "caption": "a cat hiding under a blanket on a couch",
     "objects": [
+      "couch",
       "bed",
-      "cat",
-      "couch"
+      "cat"
     ]
   },
   {
@@ -1324,9 +1324,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2303.jpg",
     "caption": "a man in a blue suit standing next to a white horse",
     "objects": [
-      "person",
       "cow",
-      "potted plant"
+      "potted plant",
+      "person"
     ]
   },
   {
@@ -1586,8 +1586,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2117.jpg",
     "caption": "a little girl standing on the beach looking at the water",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -1722,8 +1722,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0933.jpg",
     "caption": "a person standing on rocks looking out at the ocean",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -1787,8 +1787,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0270.jpg",
     "caption": "silhouette of mother and daughter with dog",
     "objects": [
-      "person",
-      "cow"
+      "cow",
+      "person"
     ]
   },
   {
@@ -1908,9 +1908,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2498.jpg",
     "caption": "a woman holding a cat in her arms",
     "objects": [
+      "chair",
       "bed",
-      "cat",
-      "chair"
+      "cat"
     ]
   },
   {
@@ -2169,8 +2169,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1230.jpg",
     "caption": "a drop of water on a white surface",
     "objects": [
-      "boat",
-      "kite"
+      "kite",
+      "boat"
     ]
   },
   {
@@ -2211,9 +2211,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0884.jpg",
     "caption": "a beach with people on it and mountains in the background",
     "objects": [
+      "kite",
       "person",
-      "cow",
-      "kite"
+      "cow"
     ]
   },
   {
@@ -2389,8 +2389,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1231.jpg",
     "caption": "jellyfish in a bowl",
     "objects": [
-      "cup",
-      "cake"
+      "cake",
+      "cup"
     ]
   },
   {
@@ -2399,8 +2399,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0649.jpg",
     "caption": "a white shelf with a cactus and sus in glass jars",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -2409,8 +2409,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1557.jpg",
     "caption": "a vase with some flowers in it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -2419,8 +2419,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0891.jpg",
     "caption": "a man is surfing in the ocean",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -2461,8 +2461,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0107.jpg",
     "caption": "a wet wet wet wet wet wet wet wet wet wet wet wet wet wet wet wet wet wet wet",
     "objects": [
-      "bear",
-      "bird"
+      "bird",
+      "bear"
     ]
   },
   {
@@ -2602,8 +2602,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2274.jpg",
     "caption": "two people hiking up a mountain",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -2612,8 +2612,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0463.jpg",
     "caption": "a group of people are walking in the water",
     "objects": [
-      "person",
-      "boat"
+      "boat",
+      "person"
     ]
   },
   {
@@ -2629,8 +2629,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0477.jpg",
     "caption": "two people sitting on a rock at sunset",
     "objects": [
-      "person",
-      "frisbee"
+      "frisbee",
+      "person"
     ]
   },
   {
@@ -2708,8 +2708,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1635.jpg",
     "caption": "a man in a canoe paddling through a cave",
     "objects": [
-      "person",
       "boat",
+      "person",
       "skateboard"
     ]
   },
@@ -2854,8 +2854,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1392.jpg",
     "caption": "a small black pug puppy sitting on a couch",
     "objects": [
-      "car",
-      "dog"
+      "dog",
+      "car"
     ]
   },
   {
@@ -2903,8 +2903,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0729.jpg",
     "caption": "a woman is petting a horse in a field",
     "objects": [
-      "person",
-      "horse"
+      "horse",
+      "person"
     ]
   },
   {
@@ -2975,8 +2975,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2664.jpg",
     "caption": "a herd of elk in the wild",
     "objects": [
-      "horse",
-      "sheep"
+      "sheep",
+      "horse"
     ]
   },
   {
@@ -2985,8 +2985,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0073.jpg",
     "caption": "a pair of shoes with flowers in them",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -3051,10 +3051,10 @@
     "caption": "a table with christmas decorations and candles",
     "objects": [
       "cup",
+      "bowl",
       "dining table",
-      "apple",
       "bed",
-      "bowl"
+      "apple"
     ]
   },
   {
@@ -3070,9 +3070,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2648.jpg",
     "caption": "a man is taking a picture of an elephant",
     "objects": [
-      "person",
+      "chair",
       "elephant",
-      "chair"
+      "person"
     ]
   },
   {
@@ -3121,8 +3121,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2674.jpg",
     "caption": "a corgy corgy dog on a leash",
     "objects": [
-      "person",
       "handbag",
+      "person",
       "dog"
     ]
   },
@@ -3380,8 +3380,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2489.jpg",
     "caption": "a white wall with hanging plants and a blackboard",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -3406,8 +3406,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1816.jpg",
     "caption": "a city street with a bus and buildings",
     "objects": [
-      "car",
-      "boat"
+      "boat",
+      "car"
     ]
   },
   {
@@ -3430,8 +3430,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1989.jpg",
     "caption": "a woman hiking in the mountains",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -3440,8 +3440,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1751.jpg",
     "caption": "a man standing in front of a waterfall",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -3627,8 +3627,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0881.jpg",
     "caption": "a surfboard on the beach with people in the background",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -3748,8 +3748,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2933.jpg",
     "caption": "a woman walking across a sand dune",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -3772,8 +3772,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2932.jpg",
     "caption": "a penguin swimming in the water",
     "objects": [
-      "sports ball",
-      "bird"
+      "bird",
+      "sports ball"
     ]
   },
   {
@@ -3789,9 +3789,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1585.jpg",
     "caption": "pink flowers on a tree by the water",
     "objects": [
-      "potted plant",
+      "kite",
       "boat",
-      "kite"
+      "potted plant"
     ]
   },
   {
@@ -3983,8 +3983,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0499.jpg",
     "caption": "a plant in a concrete pot on a wooden table",
     "objects": [
-      "potted plant",
-      "dining table"
+      "dining table",
+      "potted plant"
     ]
   },
   {
@@ -4106,8 +4106,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1036.jpg",
     "caption": "a woman standing on the beach at sunset",
     "objects": [
-      "person",
-      "frisbee"
+      "frisbee",
+      "person"
     ]
   },
   {
@@ -4169,9 +4169,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1181.jpg",
     "caption": "a man wearing a hat and backpack",
     "objects": [
-      "person",
       "backpack",
-      "handbag"
+      "handbag",
+      "person"
     ]
   },
   {
@@ -4341,8 +4341,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0937.jpg",
     "caption": "a surfer rides a wave in the ocean",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -4715,8 +4715,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0909.jpg",
     "caption": "palm trees line the street in palm beach, california",
     "objects": [
-      "car",
-      "traffic light"
+      "traffic light",
+      "car"
     ]
   },
   {
@@ -4766,9 +4766,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0538.jpg",
     "caption": "a pot with a plant on top of it",
     "objects": [
-      "bowl",
+      "potted plant",
       "vase",
-      "potted plant"
+      "bowl"
     ]
   },
   {
@@ -5019,8 +5019,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0316.jpg",
     "caption": "a view of a city from above",
     "objects": [
-      "car",
-      "refrigerator"
+      "refrigerator",
+      "car"
     ]
   },
   {
@@ -5142,8 +5142,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0896.jpg",
     "caption": "a body of water",
     "objects": [
-      "boat",
-      "kite"
+      "kite",
+      "boat"
     ]
   },
   {
@@ -5152,8 +5152,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2071.jpg",
     "caption": "a bunch of lemons on a tree",
     "objects": [
-      "apple",
-      "orange"
+      "orange",
+      "apple"
     ]
   },
   {
@@ -5302,8 +5302,8 @@
     "caption": "a yellow egg in a nest with dried grass",
     "objects": [
       "banana",
-      "orange",
-      "teddy bear"
+      "teddy bear",
+      "orange"
     ]
   },
   {
@@ -5344,9 +5344,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1586.jpg",
     "caption": "a street lined with trees and leaves",
     "objects": [
-      "person",
+      "chair",
       "fire hydrant",
-      "chair"
+      "person"
     ]
   },
   {
@@ -5422,8 +5422,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2716.jpg",
     "caption": "a bunch of flowers on a ledge in a river",
     "objects": [
-      "person",
-      "boat"
+      "boat",
+      "person"
     ]
   },
   {
@@ -5658,8 +5658,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0459.jpg",
     "caption": "flamingos de flamingos de animales",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -5677,8 +5677,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1814.jpg",
     "caption": "an aerial view of a beach and a small island",
     "objects": [
-      "toothbrush",
-      "broccoli"
+      "broccoli",
+      "toothbrush"
     ]
   },
   {
@@ -5779,9 +5779,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3018.jpg",
     "caption": "a knife and some plums on a tray",
     "objects": [
-      "apple",
+      "bowl",
       "knife",
-      "bowl"
+      "apple"
     ]
   },
   {
@@ -5848,8 +5848,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3024.jpg",
     "caption": "a vase with flowers on a table",
     "objects": [
-      "vase",
-      "dining table"
+      "dining table",
+      "vase"
     ]
   },
   {
@@ -5904,8 +5904,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0934.jpg",
     "caption": "a person holding a green cater cater cater cater cater cater cater cater cater cater cater cater cater cater cater",
     "objects": [
-      "person",
       "banana",
+      "person",
       "hot dog"
     ]
   },
@@ -5977,8 +5977,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2104.jpg",
     "caption": "a ham hamster peeks out from a green blanket",
     "objects": [
-      "cat",
-      "couch"
+      "couch",
+      "cat"
     ]
   },
   {
@@ -6160,9 +6160,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2639.jpg",
     "caption": "a herd of elk in the snow",
     "objects": [
-      "cow",
+      "sheep",
       "horse",
-      "sheep"
+      "cow"
     ]
   },
   {
@@ -6271,8 +6271,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0576.jpg",
     "caption": "an aerial view of a lake and a house",
     "objects": [
-      "broccoli",
-      "carrot"
+      "carrot",
+      "broccoli"
     ]
   },
   {
@@ -6389,9 +6389,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1867.jpg",
     "caption": "a table sitting on top of a wooden floor",
     "objects": [
-      "bowl",
+      "potted plant",
       "vase",
-      "potted plant"
+      "bowl"
     ]
   },
   {
@@ -6500,8 +6500,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0370.jpg",
     "caption": "two seals on ice with a fish in the background",
     "objects": [
-      "person",
-      "bear"
+      "bear",
+      "person"
     ]
   },
   {
@@ -6669,10 +6669,10 @@
     "caption": "a table with a small machine on it",
     "objects": [
       "cup",
-      "car",
-      "cell phone",
+      "chair",
       "remote",
-      "chair"
+      "car",
+      "cell phone"
     ]
   },
   {
@@ -6681,8 +6681,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2995.jpg",
     "caption": "a house in the middle of a field",
     "objects": [
-      "cow",
-      "sheep"
+      "sheep",
+      "cow"
     ]
   },
   {
@@ -6714,8 +6714,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1536.jpg",
     "caption": "jellyfish in the dark",
     "objects": [
-      "sports ball",
-      "frisbee"
+      "frisbee",
+      "sports ball"
     ]
   },
   {
@@ -6861,8 +6861,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2758.jpg",
     "caption": "a little girl in a field of dandels",
     "objects": [
-      "person",
-      "sheep"
+      "sheep",
+      "person"
     ]
   },
   {
@@ -6899,8 +6899,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1245.jpg",
     "caption": "aerial view of rocks and sea",
     "objects": [
-      "person",
-      "kite"
+      "kite",
+      "person"
     ]
   },
   {
@@ -7062,8 +7062,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1721.jpg",
     "caption": "a basketball court with a net and a ball",
     "objects": [
-      "airplane",
-      "traffic light"
+      "traffic light",
+      "airplane"
     ]
   },
   {
@@ -7151,8 +7151,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1682.jpg",
     "caption": "a person holding a tissue in their hand",
     "objects": [
-      "person",
-      "bed"
+      "bed",
+      "person"
     ]
   },
   {
@@ -7179,8 +7179,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3081.jpg",
     "caption": "a small deer standing in the grass",
     "objects": [
-      "cow",
-      "bird"
+      "bird",
+      "cow"
     ]
   },
   {
@@ -7189,8 +7189,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1866.jpg",
     "caption": "a person walking through a rocky area",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -7341,9 +7341,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2360.jpg",
     "caption": "a traffic light on a pole in the snow",
     "objects": [
-      "car",
+      "traffic light",
       "parking meter",
-      "traffic light"
+      "car"
     ]
   },
   {
@@ -7392,8 +7392,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1494.jpg",
     "caption": "the moon is seen as it passes through the earth ' s shadow",
     "objects": [
-      "apple",
-      "orange"
+      "orange",
+      "apple"
     ]
   },
   {
@@ -7436,8 +7436,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0991.jpg",
     "caption": "the bubble nebula in the constellation",
     "objects": [
-      "apple",
-      "vase"
+      "vase",
+      "apple"
     ]
   },
   {
@@ -7520,8 +7520,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2162.jpg",
     "caption": "a plant in a glass vase",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -7615,8 +7615,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2160.jpg",
     "caption": "a couple standing in front of a waterfall",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -7664,8 +7664,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1333.jpg",
     "caption": "a small deer standing in the middle of a forest",
     "objects": [
-      "giraffe",
-      "sheep"
+      "sheep",
+      "giraffe"
     ]
   },
   {
@@ -8125,8 +8125,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2000.jpg",
     "caption": "a person standing on top of a mountain",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -8153,8 +8153,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0171.jpg",
     "caption": "a green smoke bomb is being released from a pipe",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -8205,8 +8205,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1535.jpg",
     "caption": "a boat is in the water near a rocky island",
     "objects": [
-      "broccoli",
-      "kite"
+      "kite",
+      "broccoli"
     ]
   },
   {
@@ -8215,8 +8215,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2982.jpg",
     "caption": "a deer standing in the grass",
     "objects": [
-      "person",
-      "sheep"
+      "sheep",
+      "person"
     ]
   },
   {
@@ -8246,9 +8246,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2996.jpg",
     "caption": "a plant in a pot on a wooden table",
     "objects": [
-      "potted plant",
       "chair",
-      "dining table"
+      "dining table",
+      "potted plant"
     ]
   },
   {
@@ -8323,8 +8323,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2955.jpg",
     "caption": "a vase filled with orange roses",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -8370,9 +8370,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0831.jpg",
     "caption": "a dog wearing a shirt that says ` ` ` `",
     "objects": [
-      "skateboard",
       "person",
-      "dog"
+      "dog",
+      "skateboard"
     ]
   },
   {
@@ -8481,9 +8481,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0164.jpg",
     "caption": "a woman looking at a fish in an aquarium",
     "objects": [
-      "person",
       "bird",
-      "cell phone"
+      "cell phone",
+      "person"
     ]
   },
   {
@@ -8529,8 +8529,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2001.jpg",
     "caption": "a man walking through the woods in winter",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -8638,8 +8638,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0428.jpg",
     "caption": "a white swan with its head in the water",
     "objects": [
-      "bed",
       "bird",
+      "bed",
       "teddy bear"
     ]
   },
@@ -8665,8 +8665,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2571.jpg",
     "caption": "a vase with a bunch of dried plants in it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -8730,8 +8730,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3082.jpg",
     "caption": "two people sitting on a bench looking at the sun",
     "objects": [
-      "person",
-      "horse"
+      "horse",
+      "person"
     ]
   },
   {
@@ -8758,8 +8758,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1681.jpg",
     "caption": "a bunch of flowers sitting on top of a wooden table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -9204,8 +9204,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2171.jpg",
     "caption": "a truck parked under the aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora aurora",
     "objects": [
-      "person",
-      "truck"
+      "truck",
+      "person"
     ]
   },
   {
@@ -9491,8 +9491,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2398.jpg",
     "caption": "a man walking through a desert with a cow",
     "objects": [
-      "person",
-      "cow"
+      "cow",
+      "person"
     ]
   },
   {
@@ -9561,8 +9561,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1040.jpg",
     "caption": "a plane flying in the sky at sunset",
     "objects": [
-      "airplane",
-      "bird"
+      "bird",
+      "airplane"
     ]
   },
   {
@@ -9612,8 +9612,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1068.jpg",
     "caption": "a pot of green plants on a wooden shelf",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -9631,9 +9631,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0362.jpg",
     "caption": "a swimming pool with lounge chairs and umbrellas",
     "objects": [
+      "chair",
       "person",
       "bench",
-      "chair",
       "umbrella"
     ]
   },
@@ -9664,8 +9664,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1929.jpg",
     "caption": "satellite image of the red sea",
     "objects": [
-      "person",
-      "bear"
+      "bear",
+      "person"
     ]
   },
   {
@@ -9712,8 +9712,8 @@
     "caption": "a dog laying on a bed with a blanket",
     "objects": [
       "bed",
-      "teddy bear",
-      "dog"
+      "dog",
+      "teddy bear"
     ]
   },
   {
@@ -9925,8 +9925,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0820.jpg",
     "caption": "a vase with a plant in it on a table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -10031,8 +10031,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2762.jpg",
     "caption": "a woman ' s hand reaching to a flower",
     "objects": [
-      "person",
-      "carrot"
+      "carrot",
+      "person"
     ]
   },
   {
@@ -10076,9 +10076,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1243.jpg",
     "caption": "su sui sui sui sui sui sui sui sui sui su",
     "objects": [
-      "dining table",
+      "bottle",
       "broccoli",
-      "bottle"
+      "dining table"
     ]
   },
   {
@@ -10140,8 +10140,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1914.jpg",
     "caption": "a dog with a leash on its neck",
     "objects": [
-      "person",
       "chair",
+      "person",
       "dog"
     ]
   },
@@ -10151,8 +10151,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1082.jpg",
     "caption": "a woman in a long coat walks through a jungle",
     "objects": [
-      "person",
-      "potted plant"
+      "potted plant",
+      "person"
     ]
   },
   {
@@ -10318,8 +10318,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1690.jpg",
     "caption": "a bucket full of oranges sitting on a ledge",
     "objects": [
-      "potted plant",
-      "chair"
+      "chair",
+      "potted plant"
     ]
   },
   {
@@ -10440,8 +10440,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2414.jpg",
     "caption": "a vase with flowers and a small glass vase",
     "objects": [
-      "vase",
-      "cup"
+      "cup",
+      "vase"
     ]
   },
   {
@@ -10498,8 +10498,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2428.jpg",
     "caption": "a lifeguard on the beach",
     "objects": [
-      "person",
-      "truck"
+      "truck",
+      "person"
     ]
   },
   {
@@ -10571,8 +10571,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1486.jpg",
     "caption": "a man holding a bird in his hand",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -10772,9 +10772,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2628.jpg",
     "caption": "two people laying in the sand at sunset",
     "objects": [
-      "person",
-      "bed",
       "cow",
+      "bed",
+      "person",
       "dog"
     ]
   },
@@ -10842,8 +10842,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0003.jpg",
     "caption": "a man is surfing in the ocean with a surfboard",
     "objects": [
-      "person",
       "surfboard",
+      "person",
       "dog"
     ]
   },
@@ -11025,8 +11025,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0201.jpg",
     "caption": "pink tuliplips tuliplips tulips tulips tulips tulip",
     "objects": [
-      "vase",
-      "dining table"
+      "dining table",
+      "vase"
     ]
   },
   {
@@ -11058,8 +11058,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3085.jpg",
     "caption": "a woman holding a bunch of white flowers",
     "objects": [
-      "person",
-      "broccoli"
+      "broccoli",
+      "person"
     ]
   },
   {
@@ -11247,8 +11247,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1902.jpg",
     "caption": "a protester holds up a sign that reads stop caua",
     "objects": [
-      "person",
-      "stop sign"
+      "stop sign",
+      "person"
     ]
   },
   {
@@ -11289,8 +11289,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1527.jpg",
     "caption": "a tray full of cacturis",
     "objects": [
-      "bowl",
-      "dining table"
+      "dining table",
+      "bowl"
     ]
   },
   {
@@ -11718,9 +11718,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2211.jpg",
     "caption": "a woman walking her dog on a leash",
     "objects": [
+      "bird",
       "person",
-      "bench",
-      "bird"
+      "bench"
     ]
   },
   {
@@ -11807,9 +11807,9 @@
     "objects": [
       "cup",
       "person",
-      "spoon",
       "vase",
-      "potted plant"
+      "potted plant",
+      "spoon"
     ]
   },
   {
@@ -11914,8 +11914,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0214.jpg",
     "caption": "the city of london at sunset",
     "objects": [
-      "train",
-      "bus"
+      "bus",
+      "train"
     ]
   },
   {
@@ -11924,8 +11924,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1122.jpg",
     "caption": "a stack of rocks on the beach",
     "objects": [
-      "donut",
-      "hot dog"
+      "hot dog",
+      "donut"
     ]
   },
   {
@@ -11957,8 +11957,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3047.jpg",
     "caption": "disneyland world in disneyland world",
     "objects": [
-      "person",
       "clock",
+      "person",
       "potted plant"
     ]
   },
@@ -11975,8 +11975,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1650.jpg",
     "caption": "a woman in a yellow sari",
     "objects": [
-      "person",
-      "tie"
+      "tie",
+      "person"
     ]
   },
   {
@@ -12292,8 +12292,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1305.jpg",
     "caption": "a rabbit is laying down on the ground",
     "objects": [
-      "cat",
-      "bear"
+      "bear",
+      "cat"
     ]
   },
   {
@@ -12395,8 +12395,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1649.jpg",
     "caption": "a tall tree with moss growing on it",
     "objects": [
-      "bear",
-      "bird"
+      "bird",
+      "bear"
     ]
   },
   {
@@ -12438,8 +12438,8 @@
     "caption": "a chair sitting in front of a window",
     "objects": [
       "person",
-      "bench",
-      "cup"
+      "cup",
+      "bench"
     ]
   },
   {
@@ -12611,8 +12611,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2234.jpg",
     "caption": "a boat is sailing in the ocean at sunset",
     "objects": [
-      "sports ball",
-      "boat"
+      "boat",
+      "sports ball"
     ]
   },
   {
@@ -12812,9 +12812,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0153.jpg",
     "caption": "a cat is laying on a blanket",
     "objects": [
+      "couch",
       "bed",
-      "cat",
-      "couch"
+      "cat"
     ]
   },
   {
@@ -12846,8 +12846,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1265.jpg",
     "caption": "a woman sitting in a chair in an office",
     "objects": [
-      "potted plant",
-      "chair"
+      "chair",
+      "potted plant"
     ]
   },
   {
@@ -12873,10 +12873,10 @@
     "caption": "a cup of tea and some purple flowers on a table",
     "objects": [
       "cup",
-      "dining table",
       "vase",
       "bowl",
-      "orange"
+      "potted plant",
+      "dining table"
     ]
   },
   {
@@ -12947,8 +12947,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0812.jpg",
     "caption": "two horses standing in a field with trees in the background",
     "objects": [
-      "horse",
-      "bear"
+      "bear",
+      "horse"
     ]
   },
   {
@@ -13037,8 +13037,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0608.jpg",
     "caption": "a couple watching an elephant in the wild",
     "objects": [
-      "person",
-      "elephant"
+      "elephant",
+      "person"
     ]
   },
   {
@@ -13122,8 +13122,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2751.jpg",
     "caption": "two children looking at a polar bear in an aquarium",
     "objects": [
-      "person",
-      "bear"
+      "bear",
+      "person"
     ]
   },
   {
@@ -13255,8 +13255,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1728.jpg",
     "caption": "a man standing on rocks looking out at the ocean",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -13304,8 +13304,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2553.jpg",
     "caption": "a man standing on the beach with his surfboard",
     "objects": [
-      "person",
       "boat",
+      "person",
       "umbrella"
     ]
   },
@@ -13338,8 +13338,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2396.jpg",
     "caption": "a black and white photo of a street",
     "objects": [
-      "car",
-      "traffic light"
+      "traffic light",
+      "car"
     ]
   },
   {
@@ -13432,8 +13432,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1112.jpg",
     "caption": "a herd of deers in a field",
     "objects": [
-      "giraffe",
-      "sheep"
+      "sheep",
+      "giraffe"
     ]
   },
   {
@@ -13634,8 +13634,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1476.jpg",
     "caption": "a group of wolves standing on top of a rock",
     "objects": [
-      "bear",
-      "sheep"
+      "sheep",
+      "bear"
     ]
   },
   {
@@ -13715,10 +13715,10 @@
     "caption": "a table with plates and silverware and silverware",
     "objects": [
       "knife",
-      "dining table",
-      "fork",
       "bowl",
-      "cake"
+      "carrot",
+      "dining table",
+      "fork"
     ]
   },
   {
@@ -13783,8 +13783,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0030.jpg",
     "caption": "a man walking on the beach with a backpack",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -13814,9 +13814,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1448.jpg",
     "caption": "a woman walking down the street in downtown",
     "objects": [
+      "handbag",
       "person",
-      "car",
-      "handbag"
+      "car"
     ]
   },
   {
@@ -14019,8 +14019,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2343.jpg",
     "caption": "a woman in a colorful sari sari sari sari sari sari sari sar",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -14204,8 +14204,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0420.jpg",
     "caption": "people swimming in the ocean near a beach",
     "objects": [
-      "person",
-      "kite"
+      "kite",
+      "person"
     ]
   },
   {
@@ -14221,8 +14221,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2551.jpg",
     "caption": "a cat sitting on top of a roof",
     "objects": [
-      "cat",
-      "boat"
+      "boat",
+      "cat"
     ]
   },
   {
@@ -14501,8 +14501,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1299.jpg",
     "caption": "a window sie with plants and a plant pot on it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -15051,8 +15051,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1893.jpg",
     "caption": "joshua tree national park",
     "objects": [
-      "person",
-      "horse"
+      "horse",
+      "person"
     ]
   },
   {
@@ -15107,9 +15107,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1887.jpg",
     "caption": "a bird sitting on a tree stump in the woods",
     "objects": [
-      "person",
       "cow",
-      "elephant"
+      "elephant",
+      "person"
     ]
   },
   {
@@ -15230,8 +15230,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1313.jpg",
     "caption": "a stack of rocks on top of a rock",
     "objects": [
-      "donut",
-      "bird"
+      "bird",
+      "donut"
     ]
   },
   {
@@ -15263,8 +15263,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0019.jpg",
     "caption": "a bouquet of tulips",
     "objects": [
-      "bowl",
       "dining table",
+      "bowl",
       "orange"
     ]
   },
@@ -15283,8 +15283,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2626.jpg",
     "caption": "a surfer is standing in the water at sunset",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -15330,8 +15330,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0743.jpg",
     "caption": "a white flower floating in a pond",
     "objects": [
-      "vase",
-      "dining table"
+      "dining table",
+      "vase"
     ]
   },
   {
@@ -15486,8 +15486,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0974.jpg",
     "caption": "a person standing on top of a mountain",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -15567,8 +15567,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3070.jpg",
     "caption": "a bird house and flowers on a table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -15679,10 +15679,10 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1897.jpg",
     "caption": "a neon sign that says ' love ' in front of a window with sus and sus",
     "objects": [
+      "cup",
       "potted plant",
       "vase",
-      "bowl",
-      "cup"
+      "bowl"
     ]
   },
   {
@@ -15723,8 +15723,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1840.jpg",
     "caption": "autumn leaves on the ground",
     "objects": [
-      "teddy bear",
-      "carrot"
+      "carrot",
+      "teddy bear"
     ]
   },
   {
@@ -15749,9 +15749,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2391.jpg",
     "caption": "three horses are standing in the grass",
     "objects": [
-      "cow",
+      "sheep",
       "bear",
-      "sheep"
+      "cow"
     ]
   },
   {
@@ -15919,8 +15919,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2583.jpg",
     "caption": "flamingos de la zoo",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -15929,8 +15929,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0394.jpg",
     "caption": "two surfers walking on the beach",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -15996,8 +15996,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1505.jpg",
     "caption": "a vase with white flowers and twine twine",
     "objects": [
-      "vase",
-      "dining table"
+      "dining table",
+      "vase"
     ]
   },
   {
@@ -16040,8 +16040,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2024.jpg",
     "caption": "a woman sitting on a bench holding a cup",
     "objects": [
-      "remote",
-      "bottle"
+      "bottle",
+      "remote"
     ]
   },
   {
@@ -16098,9 +16098,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0814.jpg",
     "caption": "a white chair with a pot of plants on top",
     "objects": [
-      "vase",
+      "chair",
       "potted plant",
-      "chair"
+      "vase"
     ]
   },
   {
@@ -16125,8 +16125,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1288.jpg",
     "caption": "a woman in a pink swimsuit floating in a pool",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -16135,8 +16135,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0196.jpg",
     "caption": "a man standing next to a red fire hydra",
     "objects": [
-      "person",
-      "frisbee"
+      "frisbee",
+      "person"
     ]
   },
   {
@@ -16245,9 +16245,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0801.jpg",
     "caption": "a woman sitting at a table with a book and a plant",
     "objects": [
+      "dining table",
       "person",
-      "potted plant",
-      "dining table"
+      "potted plant"
     ]
   },
   {
@@ -16256,8 +16256,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2970.jpg",
     "caption": "a bird flying in the sky with a blue sky background",
     "objects": [
-      "airplane",
-      "kite"
+      "kite",
+      "airplane"
     ]
   },
   {
@@ -16364,9 +16364,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1262.jpg",
     "caption": "a plant in a basket on a wooden stool",
     "objects": [
-      "vase",
-      "potted plant",
       "bird",
+      "potted plant",
+      "vase",
       "kite"
     ]
   },
@@ -16510,8 +16510,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2541.jpg",
     "caption": "a cat sitting on a chair in a room",
     "objects": [
-      "cat",
-      "chair"
+      "chair",
+      "cat"
     ]
   },
   {
@@ -16602,8 +16602,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2384.jpg",
     "caption": "a man with a backpack walking through the woods",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -16775,8 +16775,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0578.jpg",
     "caption": "a window with a potted plant next to it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -16785,8 +16785,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1666.jpg",
     "caption": "a table with potted plants on it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -17003,8 +17003,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1314.jpg",
     "caption": "a dog sleeping in a chair with its owner",
     "objects": [
-      "person",
       "bed",
+      "person",
       "dog"
     ]
   },
@@ -17074,9 +17074,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2147.jpg",
     "caption": "a woman holding a surfboard on the beach",
     "objects": [
-      "person",
       "surfboard",
-      "chair"
+      "chair",
+      "person"
     ]
   },
   {
@@ -17189,8 +17189,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0787.jpg",
     "caption": "a woman holding a leaf in front of a tree",
     "objects": [
-      "person",
-      "broccoli"
+      "broccoli",
+      "person"
     ]
   },
   {
@@ -17256,8 +17256,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3073.jpg",
     "caption": "a tunnel with light coming through it",
     "objects": [
-      "person",
-      "tie"
+      "tie",
+      "person"
     ]
   },
   {
@@ -17334,8 +17334,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1658.jpg",
     "caption": "a monkey eating a fruit in the forest",
     "objects": [
-      "bear",
-      "bird"
+      "bird",
+      "bear"
     ]
   },
   {
@@ -17456,9 +17456,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2219.jpg",
     "caption": "a bunch of pink and yellow roses",
     "objects": [
+      "cake",
       "person",
-      "donut",
-      "cake"
+      "donut"
     ]
   },
   {
@@ -17641,8 +17641,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0142.jpg",
     "caption": "a sunset over the ocean with a rock in the fore",
     "objects": [
-      "truck",
-      "boat"
+      "boat",
+      "truck"
     ]
   },
   {
@@ -17688,8 +17688,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2741.jpg",
     "caption": "a person walking through an ice cave",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -17953,8 +17953,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0619.jpg",
     "caption": "an open book with a red leaf on top",
     "objects": [
-      "book",
-      "bed"
+      "bed",
+      "book"
     ]
   },
   {
@@ -18035,8 +18035,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0355.jpg",
     "caption": "a dog sitting in the grass with a house in the background",
     "objects": [
-      "bench",
-      "dog"
+      "dog",
+      "bench"
     ]
   },
   {
@@ -18138,10 +18138,10 @@
     "caption": "a wooden table with a vase of flowers on it",
     "objects": [
       "cup",
-      "dining table",
+      "chair",
       "vase",
       "bowl",
-      "chair"
+      "potted plant"
     ]
   },
   {
@@ -18305,9 +18305,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3072.jpg",
     "caption": "a person holding a crystal with a small piece of quartz",
     "objects": [
+      "cell phone",
       "person",
-      "remote",
-      "cell phone"
+      "remote"
     ]
   },
   {
@@ -18406,8 +18406,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2813.jpg",
     "caption": "a white table with a plant on top",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -18423,9 +18423,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0976.jpg",
     "caption": "a flock of birds flying over a wooden building",
     "objects": [
-      "airplane",
+      "kite",
       "bird",
-      "kite"
+      "airplane"
     ]
   },
   {
@@ -18532,8 +18532,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2608.jpg",
     "caption": "two people standing on a rock overlooking a valley",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -18671,8 +18671,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0078.jpg",
     "caption": "a person walking down a dirt road in the mountains",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -18718,8 +18718,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0087.jpg",
     "caption": "a woman sitting on the floor with a tray of food",
     "objects": [
-      "person",
-      "chair"
+      "chair",
+      "person"
     ]
   },
   {
@@ -18769,8 +18769,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2323.jpg",
     "caption": "a person walking down the street holding an umbrella",
     "objects": [
-      "person",
       "traffic light",
+      "person",
       "umbrella"
     ]
   },
@@ -18870,8 +18870,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2479.jpg",
     "caption": "a rock formation in the middle of a canyon",
     "objects": [
-      "person",
-      "tie"
+      "tie",
+      "person"
     ]
   },
   {
@@ -18984,9 +18984,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1038.jpg",
     "caption": "a woman sitting at a table in a dark room",
     "objects": [
-      "person",
+      "chair",
       "dining table",
-      "chair"
+      "person"
     ]
   },
   {
@@ -19288,8 +19288,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0859.jpg",
     "caption": "a dog wearing a red and black plaid shirt",
     "objects": [
-      "person",
       "couch",
+      "person",
       "dog"
     ]
   },
@@ -19326,8 +19326,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0865.jpg",
     "caption": "a basket with flowers on a table",
     "objects": [
-      "cup",
-      "potted plant"
+      "potted plant",
+      "cup"
     ]
   },
   {
@@ -19457,8 +19457,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0119.jpg",
     "caption": "a person sitting on a bench looking out at the ocean",
     "objects": [
-      "person",
       "backpack",
+      "person",
       "bench"
     ]
   },
@@ -19514,8 +19514,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0131.jpg",
     "caption": "a person holding a watch in their hand",
     "objects": [
-      "person",
-      "clock"
+      "clock",
+      "person"
     ]
   },
   {
@@ -19611,8 +19611,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1944.jpg",
     "caption": "a person ' s feet on a mountain overlooking a lake",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -19807,9 +19807,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1165.jpg",
     "caption": "two bison bisones in a field",
     "objects": [
-      "cow",
+      "sheep",
       "horse",
-      "sheep"
+      "cow"
     ]
   },
   {
@@ -19818,8 +19818,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1603.jpg",
     "caption": "a man in a suit and tie standing in the snow",
     "objects": [
-      "person",
-      "tie"
+      "tie",
+      "person"
     ]
   },
   {
@@ -19877,8 +19877,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1159.jpg",
     "caption": "a glowing moon lamp with a cat face on it",
     "objects": [
-      "sports ball",
-      "frisbee"
+      "frisbee",
+      "sports ball"
     ]
   },
   {
@@ -19926,8 +19926,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0535.jpg",
     "caption": "a surfer rides a wave in the ocean",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -19966,8 +19966,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2875.jpg",
     "caption": "a bird perched on a person ' s hand",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -19976,8 +19976,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2861.jpg",
     "caption": "a fox in the woods",
     "objects": [
-      "bear",
-      "sheep"
+      "sheep",
+      "bear"
     ]
   },
   {
@@ -20000,8 +20000,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1398.jpg",
     "caption": "a black and white photo of a city",
     "objects": [
-      "train",
       "bus",
+      "train",
       "car"
     ]
   },
@@ -20027,8 +20027,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2691.jpg",
     "caption": "a fountain with water spraying out of it",
     "objects": [
-      "horse",
-      "bird"
+      "bird",
+      "horse"
     ]
   },
   {
@@ -20164,8 +20164,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0737.jpg",
     "caption": "a woman walking through a snowy field",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -20268,8 +20268,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0709.jpg",
     "caption": "a woman in a black jacket and red hat",
     "objects": [
-      "person",
-      "chair"
+      "chair",
+      "person"
     ]
   },
   {
@@ -20433,8 +20433,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3016.jpg",
     "caption": "two vases with dried flowers in them on a wooden table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -20685,9 +20685,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2283.jpg",
     "caption": "a man is pling a field with a horse",
     "objects": [
+      "truck",
       "person",
-      "horse",
-      "truck"
+      "horse"
     ]
   },
   {
@@ -20819,8 +20819,8 @@
     "caption": "a couple sitting on a blanket in front of a tent",
     "objects": [
       "cup",
-      "dining table",
       "person",
+      "dining table",
       "cell phone",
       "umbrella"
     ]
@@ -20914,8 +20914,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0872.jpg",
     "caption": "a bunch of flowers in buckets on a table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -21113,8 +21113,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0654.jpg",
     "caption": "the sun sets over the mono lake in mono island, california",
     "objects": [
-      "person",
-      "elephant"
+      "elephant",
+      "person"
     ]
   },
   {
@@ -21194,8 +21194,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2269.jpg",
     "caption": "a rooster is hanging on a tree branch",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -21298,9 +21298,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0330.jpg",
     "caption": "two women holding signs and standing in the street",
     "objects": [
-      "person",
       "surfboard",
-      "handbag"
+      "handbag",
+      "person"
     ]
   },
   {
@@ -21318,9 +21318,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0293.jpg",
     "caption": "a goldfish in the dark",
     "objects": [
-      "teddy bear",
       "bird",
-      "tie"
+      "tie",
+      "teddy bear"
     ]
   },
   {
@@ -21516,8 +21516,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2862.jpg",
     "caption": "a snow ple on the frozen lake",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -21604,8 +21604,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1364.jpg",
     "caption": "three people walking down a dirt road",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -21839,8 +21839,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2866.jpg",
     "caption": "a couple sitting on a hill looking at the city lights",
     "objects": [
-      "person",
-      "sports ball"
+      "sports ball",
+      "person"
     ]
   },
   {
@@ -21866,8 +21866,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0081.jpg",
     "caption": "a pot with a plant in it",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -21876,11 +21876,11 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0095.jpg",
     "caption": "a man and woman in costumes holding a rose",
     "objects": [
-      "dining table",
       "person",
       "bowl",
-      "orange",
-      "wine glass"
+      "dining table",
+      "wine glass",
+      "orange"
     ]
   },
   {
@@ -21896,8 +21896,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1162.jpg",
     "caption": "a pair of work gloves, a chainsaw, a chainsaw, a chainsaw, a chains",
     "objects": [
-      "cup",
-      "bottle"
+      "bottle",
+      "cup"
     ]
   },
   {
@@ -21936,8 +21936,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2319.jpg",
     "caption": "a lionfish swims in the waters of the great barrier reef in the bahamas islands",
     "objects": [
-      "zebra",
-      "bird"
+      "bird",
+      "zebra"
     ]
   },
   {
@@ -22001,8 +22001,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2325.jpg",
     "caption": "a book on a table next to a candle",
     "objects": [
-      "book",
-      "mouse"
+      "mouse",
+      "book"
     ]
   },
   {
@@ -22087,9 +22087,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1016.jpg",
     "caption": "a person sitting on a roof looking at the moon",
     "objects": [
-      "person",
+      "kite",
       "frisbee",
-      "kite"
+      "person"
     ]
   },
   {
@@ -22188,8 +22188,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1980.jpg",
     "caption": "a man standing in the snow looking at the stars",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -22368,9 +22368,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0122.jpg",
     "caption": "a woman carrying a flower cart down a cobb street",
     "objects": [
+      "potted plant",
       "person",
-      "car",
-      "potted plant"
+      "car"
     ]
   },
   {
@@ -22389,8 +22389,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2053.jpg",
     "caption": "two elk elk on a hill",
     "objects": [
-      "cow",
-      "sheep"
+      "sheep",
+      "cow"
     ]
   },
   {
@@ -22415,11 +22415,11 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2912.jpg",
     "caption": "a desk with a computer, mouse and mouse pad",
     "objects": [
-      "keyboard",
-      "mouse",
-      "cell phone",
       "laptop",
-      "potted plant"
+      "mouse",
+      "potted plant",
+      "keyboard",
+      "cell phone"
     ]
   },
   {
@@ -22428,8 +22428,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0863.jpg",
     "caption": "a deer in the woods with a blurred background",
     "objects": [
-      "person",
-      "giraffe"
+      "giraffe",
+      "person"
     ]
   },
   {
@@ -22526,9 +22526,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0862.jpg",
     "caption": "a woman walking with her dog in the grass",
     "objects": [
-      "person",
-      "frisbee",
       "bird",
+      "frisbee",
+      "person",
       "dog"
     ]
   },
@@ -22788,8 +22788,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2244.jpg",
     "caption": "a group of horses standing in a field",
     "objects": [
-      "horse",
-      "sheep"
+      "sheep",
+      "horse"
     ]
   },
   {
@@ -22911,8 +22911,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0533.jpg",
     "caption": "a man standing in front of a mountain",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -22982,8 +22982,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1639.jpg",
     "caption": "a person sitting on the beach looking at the water",
     "objects": [
-      "person",
       "frisbee",
+      "person",
       "remote"
     ]
   },
@@ -23023,8 +23023,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0269.jpg",
     "caption": "a person standing on a rocky mountain",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -23067,8 +23067,8 @@
     "objects": [
       "person",
       "fork",
-      "bowl",
-      "orange"
+      "orange",
+      "bowl"
     ]
   },
   {
@@ -23102,8 +23102,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0916.jpg",
     "caption": "a beach with waves crashing on the sand at sunset",
     "objects": [
-      "person",
-      "elephant"
+      "elephant",
+      "person"
     ]
   },
   {
@@ -23159,8 +23159,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2126.jpg",
     "caption": "a person holding up a phone with a sunset in the background",
     "objects": [
-      "person",
-      "cell phone"
+      "cell phone",
+      "person"
     ]
   },
   {
@@ -23192,9 +23192,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2654.jpg",
     "caption": "a woman holding a leaf in her hand",
     "objects": [
+      "kite",
       "person",
-      "umbrella",
-      "kite"
+      "umbrella"
     ]
   },
   {
@@ -23291,9 +23291,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0069.jpg",
     "caption": "a room with many plants and plants on shelves",
     "objects": [
-      "bowl",
+      "potted plant",
       "vase",
-      "potted plant"
+      "bowl"
     ]
   },
   {
@@ -23552,8 +23552,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/3038.jpg",
     "caption": "a man fishing in the snow",
     "objects": [
-      "person",
-      "surfboard"
+      "surfboard",
+      "person"
     ]
   },
   {
@@ -23661,8 +23661,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2497.jpg",
     "caption": "an aerial view of a city at night",
     "objects": [
-      "clock",
-      "suitcase"
+      "suitcase",
+      "clock"
     ]
   },
   {
@@ -23771,9 +23771,9 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2520.jpg",
     "caption": "a small jar filled with oranges and herbs",
     "objects": [
+      "bottle",
       "dining table",
-      "orange",
-      "bottle"
+      "orange"
     ]
   },
   {
@@ -23789,8 +23789,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0337.jpg",
     "caption": "a hand holding a dandel dandel dandel dandel dandel dandel dandel dandel",
     "objects": [
-      "person",
-      "kite"
+      "kite",
+      "person"
     ]
   },
   {
@@ -23913,8 +23913,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0647.jpg",
     "caption": "a cup of tea and a rose on a table",
     "objects": [
-      "cup",
-      "dining table"
+      "dining table",
+      "cup"
     ]
   },
   {
@@ -23937,8 +23937,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0121.jpg",
     "caption": "a man with a backpack looking at the mountains",
     "objects": [
-      "person",
-      "backpack"
+      "backpack",
+      "person"
     ]
   },
   {
@@ -24184,8 +24184,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0120.jpg",
     "caption": "a white vase filled with flowers on a table",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -24381,8 +24381,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0444.jpg",
     "caption": "a group of birds sitting on top of a rock",
     "objects": [
-      "person",
-      "bird"
+      "bird",
+      "person"
     ]
   },
   {
@@ -24462,8 +24462,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/0281.jpg",
     "caption": "a close up of a tree with flowers",
     "objects": [
-      "vase",
-      "potted plant"
+      "potted plant",
+      "vase"
     ]
   },
   {
@@ -24481,8 +24481,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2482.jpg",
     "caption": "a black and white photo of rain on a window",
     "objects": [
-      "person",
-      "bed"
+      "bed",
+      "person"
     ]
   },
   {
@@ -24509,8 +24509,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2333.jpg",
     "caption": "a group of fish swimming in the water",
     "objects": [
-      "person",
       "bird",
+      "person",
       "kite"
     ]
   },
@@ -24664,10 +24664,10 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/2694.jpg",
     "caption": "a plate with a fruit on it and a glass of wine",
     "objects": [
-      "fork",
+      "pizza",
       "cup",
       "dining table",
-      "pizza"
+      "fork"
     ]
   },
   {
@@ -24841,8 +24841,8 @@
     "path": "/Users/zainab/PycharmProjects/SemanticSearch/data/images/1410.jpg",
     "caption": "a large rock formation in the middle of a canyon",
     "objects": [
-      "person",
-      "horse"
+      "horse",
+      "person"
     ]
   },
   {

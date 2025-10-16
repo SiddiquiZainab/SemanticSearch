@@ -41,7 +41,7 @@ def generate_explanation_with_gemini(query, caption, objects, score):
     Avoid repeating the score and do not mention confidence values.
     """
     try:
-        response = genai.GenerativeModel("gemini-2.0-flash").generate_content(prompt)
+        response = genai.GenerativeModel("gemini-2.0-flash-lite").generate_content(prompt)
         return response.text.strip()
     except Exception:
         return "Automatically matched based on visual and semantic relevance."
