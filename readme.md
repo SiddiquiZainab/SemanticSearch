@@ -2,6 +2,8 @@
 
 A semantic image search engine using **CLIP embeddings**, **FAISS index**, **FastAPI**, **Streamlit**, and **Gemini API** for dynamic explanations.
 
+The app allows users to search images semantically, displaying the top matching images along with captions, detected objects, and explanations.
+
 ---
 
 ## Features
