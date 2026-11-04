@@ -19,7 +19,7 @@ jobs:
       - name: Scan the current source tree for secrets
         uses: docker://zricethezav/gitleaks:v8.24.2
         with:
-          args: dir --no-git --redact .
+          args: dir --redact .
 
       - name: Set up Python
         uses: actions/setup-python@v5
