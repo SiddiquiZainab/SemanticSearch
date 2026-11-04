@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+# External datasets and generated artifacts
+/data/
+/data
+*.npy
+*.faiss
+*.index
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.log
+*.tmp

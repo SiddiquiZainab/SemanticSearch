@@ -1,76 +1,120 @@
 import os
+from pathlib import Path
+
+import faiss
 import numpy as np
 import torch
-import faiss
-from tqdm import tqdm
 from PIL import Image
-from transformers import CLIPProcessor, CLIPModel, BlipProcessor, BlipForConditionalGeneration
+from tqdm import tqdm
+from transformers import (
+    BlipForConditionalGeneration,
+    BlipProcessor,
+    CLIPModel,
+    CLIPProcessor,
+)
 from ultralytics import YOLO
-from utils import list_images, save_meta
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
+from src.utils import DATA_DIR, list_images, save_meta
 
-# --- Models ---
-print("Loading models...")
-clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(device)
-clip_proc = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+CLIP_MODEL_NAME = os.getenv("CLIP_MODEL_NAME", "openai/clip-vit-base-patch32")
+BLIP_MODEL_NAME = os.getenv(
+    "BLIP_MODEL_NAME", "Salesforce/blip-image-captioning-base"
+)
+YOLO_MODEL_NAME = os.getenv("YOLO_MODEL_NAME", "yolov8n.pt")
 
-blip_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
-blip_proc = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 
-yolo = YOLO("yolov8n.pt")  # smallest YOLO for CPU
+def load_models():
+    """Load vision models for the offline indexing job."""
+    clip_model = CLIPModel.from_pretrained(CLIP_MODEL_NAME).to(DEVICE)
+    clip_processor = CLIPProcessor.from_pretrained(CLIP_MODEL_NAME)
+    blip_model = BlipForConditionalGeneration.from_pretrained(
+        BLIP_MODEL_NAME
+    ).to(DEVICE)
+    blip_processor = BlipProcessor.from_pretrained(BLIP_MODEL_NAME)
+    yolo_model = YOLO(YOLO_MODEL_NAME)
+    return clip_model, clip_processor, blip_model, blip_processor, yolo_model
 
-os.makedirs("data", exist_ok=True)
 
-def compute_image_embedding(img_path):
-    image = Image.open(img_path).convert("RGB")
-    inputs = clip_proc(images=image, return_tensors="pt").to(device)
-    with torch.no_grad():
-        emb = clip_model.get_image_features(**inputs).cpu().numpy()
-    emb = emb / np.linalg.norm(emb, axis=1, keepdims=True)
-    return emb[0]
+def compute_image_embedding(image_path, model, processor):
+    with Image.open(image_path) as source:
+        image = source.convert("RGB")
+    inputs = processor(images=image, return_tensors="pt").to(DEVICE)
+    with torch.inference_mode():
+        embedding = model.get_image_features(**inputs).cpu().numpy()
+    norm = np.linalg.norm(embedding, axis=1, keepdims=True)
+    if np.any(norm == 0):
+        raise ValueError(f"Zero-norm embedding for {image_path}")
+    return (embedding / norm)[0].astype("float32")
 
-def caption_image(img_path):
-    image = Image.open(img_path).convert("RGB")
-    inputs = blip_proc(image, return_tensors="pt").to(device)
-    with torch.no_grad():
-        out = blip_model.generate(**inputs, max_new_tokens=20)
-    return blip_proc.decode(out[0], skip_special_tokens=True)
 
-def detect_objects(img_path):
-    results = yolo.predict(img_path, verbose=False)
-    names = [yolo.model.names[int(box.cls)] for box in results[0].boxes]
-    return list(set(names))[:5]
+def caption_image(image_path, model, processor):
+    with Image.open(image_path) as source:
+        image = source.convert("RGB")
+    inputs = processor(image, return_tensors="pt").to(DEVICE)
+    with torch.inference_mode():
+        output = model.generate(**inputs, max_new_tokens=30)
+    return processor.decode(output[0], skip_special_tokens=True)
+
+
+def detect_objects(image_path, model):
+    results = model.predict(str(image_path), verbose=False)
+    if not results or results[0].boxes is None:
+        return []
+    names = [model.names[int(box.cls)] for box in results[0].boxes]
+    return list(dict.fromkeys(names))[:5]
+
 
 def main():
-    img_paths = list_images()
-    all_embs = []
-    meta = []
-    print(f"Processing {len(img_paths)} images...")
-    for idx, path in enumerate(tqdm(img_paths)):
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    image_paths = list_images()
+    if not image_paths:
+        raise RuntimeError(
+            f"No images found under {DATA_DIR / 'images'}. "
+            "Populate the external image directory before indexing."
+        )
+
+    clip_model, clip_processor, blip_model, blip_processor, yolo_model = load_models()
+    embeddings = []
+    metadata = []
+    failures = []
+    print(f"Indexing {len(image_paths)} images from {DATA_DIR / 'images'}")
+
+    for image_id, image_path in enumerate(tqdm(image_paths)):
         try:
-            emb = compute_image_embedding(path)
-            caption = caption_image(path)
-            objects = detect_objects(path)
-            all_embs.append(emb)
-            meta.append({
-                "id": idx,
-                "filename": os.path.basename(path),
-                "path": path,
+            embedding = compute_image_embedding(
+                image_path, clip_model, clip_processor
+            )
+            caption = caption_image(image_path, blip_model, blip_processor)
+            objects = detect_objects(image_path, yolo_model)
+            relative_path = Path(image_path).resolve().relative_to(DATA_DIR).as_posix()
+            embeddings.append(embedding)
+            metadata.append({
+                "id": image_id,
+                "filename": Path(image_path).name,
+                "path": relative_path,
                 "caption": caption,
-                "objects": objects
+                "objects": objects,
             })
-        except Exception as e:
-            print(f"Error on {path}: {e}")
-    # Save embeddings and metadata
-    all_embs = np.vstack(all_embs).astype("float32")
-    np.save("data/embeddings.npy", all_embs)
-    save_meta(meta)
-    # Build FAISS index
-    index = faiss.IndexFlatIP(all_embs.shape[1])
-    index.add(all_embs)
-    faiss.write_index(index, "data/faiss.index")
-    print("✅ Embeddings and index built successfully.")
+        except Exception as exc:
+            failures.append({"path": image_path, "error": str(exc)})
+            print(f"Skipping {image_path}: {exc}")
+
+    if not embeddings:
+        raise RuntimeError("No images were processed; index was not written.")
+
+    vectors = np.vstack(embeddings).astype("float32")
+    index = faiss.IndexFlatIP(vectors.shape[1])
+    index.add(vectors)
+
+    np.save(DATA_DIR / "embeddings.npy", vectors)
+    faiss.write_index(index, str(DATA_DIR / "faiss.index"))
+    save_meta(metadata, DATA_DIR / "meta.json")
+    print(
+        f"Index complete: {len(metadata)} indexed; {len(failures)} skipped; "
+        f"output: {DATA_DIR}"
+    )
+
 
 if __name__ == "__main__":
     main()
