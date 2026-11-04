@@ -1,47 +1,89 @@
-import os
 import json
-from PIL import Image
+import os
+from pathlib import Path
+
 from dotenv import load_dotenv
-import google.generativeai as genai
+from PIL import Image
 
-# Configure Gemini
-load_dotenv()
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(PROJECT_ROOT / ".env")
 
-def load_meta(path="data/meta.json"):
-    if os.path.exists(path):
-        with open(path, "r") as f:
-            return json.load(f)
-    return []
 
-def save_meta(meta, path="data/meta.json"):
-    with open(path, "w") as f:
-        json.dump(meta, f, indent=2)
+def get_data_dir() -> Path:
+    """Resolve the external data directory independently of the working directory."""
+    configured = os.getenv("SEMANTIC_SEARCH_DATA_DIR", "data").strip() or "data"
+    path = Path(configured).expanduser()
+    if not path.is_absolute():
+        path = PROJECT_ROOT / path
+    return path.resolve()
 
-def list_images(folder="data/images", exts=(".jpg", ".png", ".jpeg")):
-    # Convert to absolute path based on project root
-    folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), folder)
 
-    if not os.path.exists(folder):
-        raise FileNotFoundError(f"Folder not found: {folder}")
+DATA_DIR = get_data_dir()
 
-    return [os.path.join(folder, f) for f in os.listdir(folder) if f.lower().endswith(exts)]
+
+def load_meta(path=None):
+    metadata_path = Path(path) if path is not None else DATA_DIR / "meta.json"
+    if not metadata_path.is_absolute():
+        metadata_path = PROJECT_ROOT / metadata_path
+    if not metadata_path.exists():
+        return []
+    with metadata_path.open("r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def save_meta(meta, path=None):
+    metadata_path = Path(path) if path is not None else DATA_DIR / "meta.json"
+    if not metadata_path.is_absolute():
+        metadata_path = PROJECT_ROOT / metadata_path
+    metadata_path.parent.mkdir(parents=True, exist_ok=True)
+    with metadata_path.open("w", encoding="utf-8") as file:
+        json.dump(meta, file, indent=2)
+
+
+def list_images(folder=None, exts=(".jpg", ".jpeg", ".png")):
+    image_dir = Path(folder) if folder is not None else DATA_DIR / "images"
+    if not image_dir.is_absolute():
+        image_dir = PROJECT_ROOT / image_dir
+    image_dir = image_dir.resolve()
+    if not image_dir.exists():
+        raise FileNotFoundError(
+            f"Image directory not found: {image_dir}. "
+            "Set SEMANTIC_SEARCH_DATA_DIR and provide an images/ directory."
+        )
+    return sorted(
+        str(path) for path in image_dir.iterdir()
+        if path.is_file() and path.suffix.lower() in exts
+    )
+
 
 def open_image(path):
-    return Image.open(path).convert("RGB")
+    with Image.open(path) as image:
+        return image.convert("RGB")
+
 
 def generate_explanation_with_gemini(query, caption, objects, score):
-    prompt = f"""
-    The user searched for: "{query}".
-    The image contains the following objects: {objects}.
-    The image caption is: "{caption}".
-    The similarity score between the image and the query is {score:.2f}.
-
-    Write one short natural explanation (2 sentences max) about why this image is a relevant match for the query.
-    Avoid repeating the score and do not mention confidence values.
-    """
+    """Gemini is optional; retrieval remains available without an API key."""
+    api_key = os.getenv("GEMINI_API_KEY", "").strip()
+    if not api_key or api_key.lower().startswith("replace_with"):
+        return "Matched using visual and semantic similarity."
     try:
-        response = genai.GenerativeModel("gemini-2.0-flash-lite").generate_content(prompt)
-        return response.text.strip()
+        import google.generativeai as genai
+
+        genai.configure(api_key=api_key)
+        prompt = f"""
+The user searched for: "{query}".
+The image objects are: {objects}.
+The image caption is: "{caption}".
+The image-query similarity score is {score:.2f}.
+
+Write one short explanation (maximum two sentences) describing why the image
+may be relevant. Do not repeat the score or claim certainty.
+"""
+        response = genai.GenerativeModel(
+            "gemini-2.0-flash-lite"
+        ).generate_content(prompt)
+        return (response.text or "").strip() or (
+            "Matched using visual and semantic similarity."
+        )
     except Exception:
-        return "Automatically matched based on visual and semantic relevance."
+        return "Matched using visual and semantic similarity."

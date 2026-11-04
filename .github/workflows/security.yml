@@ -1,0 +1,30 @@
+name: Repository security
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Scan the current source tree for secrets
+        uses: docker://zricethezav/gitleaks:v8.24.2
+        with:
+          args: dir --no-git --redact .
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Compile Python source and tests
+        run: python -m compileall -q src tests
